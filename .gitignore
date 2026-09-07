@@ -1,0 +1,11 @@
+# Build artifacts
+Komodo-x64.iso
+iso/
+Userspace/initramfs.cpio
+
+# Userspace rootfs: busybox is copied from the busybox submodule at build time
+Userspace/rootfs/bin/busybox
+
+# AI assistant configs
+CLAUDE.md
+AGENTS.md

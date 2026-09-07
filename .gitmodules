@@ -1,0 +1,9 @@
+[submodule "limine"]
+	path = limine
+	url = https://github.com/limine-bootloader/limine
+[submodule "busybox"]
+	path = busybox
+	url = https://github.com/mirror/busybox.git
+[submodule "Komodo"]
+	path = Komodo
+	url = https://github.com/COXKPER/Komodo.git

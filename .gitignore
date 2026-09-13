@@ -3,8 +3,10 @@ Komodo-x64.iso
 iso/
 Userspace/initramfs.cpio
 
-# Userspace rootfs: busybox is copied from the busybox submodule at build time
-Userspace/rootfs/bin/busybox
+# Userspace rootfs: busybox binary + applet symlinks (except sh) are generated
+Userspace/rootfs/bin/*
+!Userspace/rootfs/bin/sh
+Userspace/rootfs/sbin/*
 
 # AI assistant configs
 CLAUDE.md
